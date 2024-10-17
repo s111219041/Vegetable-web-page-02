@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EDF2C5;
+    margin: 0;
+    padding: 0 15%;
+}
+
+header {
+    height: 45%;
+    padding: 20px;
+    text-align: left;
+}
+
+.top{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+h1 {
+    color: #778a50;  
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.infoBar{
+    display: flex;
+}
+
+.infoBar ul {
+    list-style-type: none;
+    color:#778A50;
+    padding: 0;
+}
+
+.infoBar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.infoBar ul li img{
+    width: 40px;
+}
+
+.infoBar ul li text{
+    font-size: 18px;
+}
+
+.infoBar ul li a {
+    color: #778A50;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav {
+    background-color: #778A50;
+    display: flex;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+
+.nav ul {
+    list-style-type: none;
+    color:#F7FDBA;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav ul li a {
+    color: #F7FDBA;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.main-image {
+    text-align: center;
+    padding: 10px;
+}
+
+.main_image img {
+    width: 100%;
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.vegetables, .contact { 
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    overflow: hidden;
+}
+
+
+.vegetables h2, .contact h2 {
+    background-color: #76885d;
+    color: #F7FDBA;
+    padding: 16px 32px;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+
+.contact_p{
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+
+    font-size: 12px;
+    text-align: left;
+    padding: 28px;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+
+.contact_hr {
+    border: none;
+    height: 1px; 
+    background-color: black;
+}
+
+.vegetable_images{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vegetable_images img{
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #76885d;
+    color: #EDF2C5;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px; 
+}
